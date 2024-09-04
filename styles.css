@@ -1,3 +1,9 @@
 body {
     background-color: darkgreen;
 }
+
+#getTopNews img{
+    width: 25%;         /* Image will scale to the full width of its container */
+    height: auto;
+    display: block;
+}
