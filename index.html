@@ -18,16 +18,25 @@
     <script type="module" src="index.js" defer></script>
     <script type="module" src="business.js" defer></script>
     <title>The News App</title>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">News App</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="topNewsLink" href="#">Top News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="getBusinessNewsLink"href="#">Business News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
 </head>
 <body>
-  <nav>
-    <button id ='getTopUsNewsButton'>Top News</button>
-    <button id="getBusinessNewsButton">Business News</button>
-  </nav>
-    <h1>SBA 308A</h1>
     <h2>News!</h2>
-    <div id="getTopNews">
+    <div id="newsDisplay">
     </div>
-    <div id="getBusinessNews"></div>
+    
 </body>
 </html>

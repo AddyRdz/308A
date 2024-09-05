@@ -2,14 +2,9 @@ body {
     background-color: darkgreen;
 }
 
-#getTopNews img{
+#newsDisplay img{
     width: 25%;        
     height: auto;
     display: block;
 }
 
-#getBusinessNews img{
-    width: 25%;        
-    height: auto;
-    display: block;
-}
