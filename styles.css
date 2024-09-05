@@ -3,7 +3,13 @@ body {
 }
 
 #getTopNews img{
-    width: 25%;         /* Image will scale to the full width of its container */
+    width: 25%;        
+    height: auto;
+    display: block;
+}
+
+#getBusinessNews img{
+    width: 25%;        
     height: auto;
     display: block;
 }
