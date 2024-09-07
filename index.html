@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,38 +13,52 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <script type="module" src="index.js" defer></script>
     <script type="module" src="business.js" defer></script>
     <script type="module" src="sports.js" defer></script>
     <script type="module" src="entertainment.js" defer></script>
     <title>The News App</title>
-    <ul class="nav justify-content-end">
-      <!-- <li class="nav-item">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <ul class="nav">
+          <!-- <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">News App</a>
       </li> -->
-      <li class="nav-item">
-        <a class="nav-link" id="topNewsLink" href="#">Top News</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="getBusinessNewsLink"href="#">Business</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="getSportsNewsLink" href="#">Sports</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="getEntertainmentNewsLink" href="#">Entertainment</a>
-      </li>
-    </ul>
-</head>
-<body>
-  <div class = "container">
-    <h1>The News that Interests you!</h1>
-    <div id="newsDisplay" class ="row">
+          <li class="nav-item">
+            <a class="nav-link" id="topNewsLink" href="#">Top News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="getBusinessNewsLink" href="#">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="getSportsNewsLink" href="#">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="getEntertainmentNewsLink" href="#"
+              >Entertainment</a
+            >
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-dark ms-2" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+  </head>
+  <body>
+    <div class="container">
+      <h1>The News that Interests you!</h1>
+      <div id="newsDisplay" class="row"></div>
     </div>
-  </div>
-    
-    
-</body>
+  </body>
 </html>
