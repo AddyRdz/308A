@@ -1,7 +1,7 @@
 # The News App
 ## SBA 308A JavaScript Web Application
 ### Description
-- This is a JavaScript Web Application that implements the newsapi. The news api allows users to fetch news in real time. I implemented the top news, business news, sports news, and entertainement news endpoints to give users of this app different reading options. 
+- This is a JavaScript Web Application that implements the newsapi. The news api allows users to fetch news in real time. I implemented the top news, business news, sports news, technology news and entertainment news endpoints to give users of this app different reading options. In order to use this API, you must create an account and receive an API key. 
 ### Technical Specifications
 - JavaScript
 - HTML
@@ -14,6 +14,7 @@
 - Different module files
 ### Images
 ### API
+[The News Api](https://newsapi.org/)
 ```{
   "status": "ok",
   "totalResults": 135576,

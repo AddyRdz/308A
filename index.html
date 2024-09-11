@@ -18,11 +18,15 @@
     <script type="module" src="index.js" defer></script>
     <script type="module" src="business.js" defer></script>
     <script type="module" src="sports.js" defer></script>
+    <script type="module" src="technology.js" defer></script>
     <script type="module" src="entertainment.js" defer></script>
     <title>The News App</title>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
       <div class="container-fluid">
         <ul class="nav">
+          <a class="navbar-brand" href="#">
+            <img src="../308A/images/the-news-app-high-resolution-logo-transparent (1).png" alt="Logo" width="30" height="24">
+          </a>
           <!-- <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">News App</a>
       </li> -->
@@ -34,6 +38,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" id="getSportsNewsLink" href="#">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="getTechnologyNewsLink" href="#">Technology</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="getEntertainmentNewsLink" href="#"
@@ -57,7 +64,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>The News that Interests you!</h1>
+      <h1>News Made For You.</h1>
       <div id="newsDisplay" class="row"></div>
     </div>
   </body>

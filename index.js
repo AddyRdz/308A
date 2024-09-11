@@ -23,11 +23,11 @@ async function getNews() {
     const story = document.createElement("div");
     story.className = "col-md-3 mb-4"
     story.innerHTML = `<div class="card" style="width: 18rem;">
- <div class="card" style="width;">
+ <div class="card custom-card" style="width;">
   <img src="${article.urlToImage}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="${article.title}">${article.title}</h5>
-    <a href="${article.url}" class="btn btn-primary">Read More</a>
+    <a href="${article.url}" class="btn btn-primary custom-button">Read More</a>
   </div>
 </div>`
     newsDisplay.appendChild(story);

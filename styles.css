@@ -1,6 +1,6 @@
 body {
-    background-color: #024950;
-    color: #748D92;
+    background-color: #780000;
+    color: #f9e3b5;
 }
 
 /* #newsDisplay img{
@@ -16,6 +16,32 @@ body {
     transition: transform 0.3s;
   }
 
+  /* .custom-card {
+    background-color: #c1121f;
+  } */
+
   .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
 }
+
+/* .custom-button {
+  color: #003049;
+} */
+
+.nav-link:hover {
+    color: #780000;
+    transition: color 0.3s ease;
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .custom-navbar{
+    background-color: #f9e3b5;
+  }
+  
+  .nav-link {
+    color: #003049;
+  }
