@@ -17,7 +17,7 @@
 <img src="https://github.com/AddyRdz/308A/blob/main/images/topNews.png?raw=true">
 <img src="https://github.com/AddyRdz/308A/blob/main/images/entertainment.png?raw=true">
 <img src="https://github.com/AddyRdz/308A/blob/main/images/technology.png?raw=true">
-<img src="https://github.com/AddyRdz/308A/blob/main/images/business.png?raw=true">
+
 ### API
 [The News Api](https://newsapi.org/)
 ```{
