@@ -1,4 +1,5 @@
-# The News App
+# The News App <img src = "https://github.com/AddyRdz/308A/blob/main/images/logo.png?raw=true" height= '50'>
+
 ## SBA 308A JavaScript Web Application
 ### Description
 - This is a JavaScript Web Application that implements the newsapi. The news api allows users to fetch news in real time. I implemented the top news, business news, sports news, technology news and entertainment news endpoints to give users of this app different reading options. In order to use this API, you must create an account and receive an API key. 
@@ -13,10 +14,10 @@
 - Use of async/await syntax
 - Different module files
 ### Images
-<img src="">
-<img src="">
-<img src="">
-<img src="">
+<img src="https://github.com/AddyRdz/308A/blob/main/images/topNews.png?raw=true">
+<img src="https://github.com/AddyRdz/308A/blob/main/images/entertainment.png?raw=true">
+<img src="https://github.com/AddyRdz/308A/blob/main/images/technology.png?raw=true">
+<img src="https://github.com/AddyRdz/308A/blob/main/images/business.png?raw=true">
 ### API
 [The News Api](https://newsapi.org/)
 ```{
