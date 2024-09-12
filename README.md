@@ -13,6 +13,10 @@
 - Use of async/await syntax
 - Different module files
 ### Images
+<img src="">
+<img src="">
+<img src="">
+<img src="">
 ### API
 [The News Api](https://newsapi.org/)
 ```{
